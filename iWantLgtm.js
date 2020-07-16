@@ -1,4 +1,4 @@
-//自分の投稿でないもののみ処理を行う(view数のdivが存在するか確認している)
+//自分の投稿のみ処理を行う(view数のdivが存在するか確認している)
 if(document.getElementsByClassName('it-Header_pv').length){
 
     var like = document.getElementsByClassName('it-Actions_likeCount');
