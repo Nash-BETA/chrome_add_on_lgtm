@@ -1,2 +1,2 @@
-# add_on_lgtm
-# chrome_add_on_lgtm
+# chromeのアドオン
+自分の投稿かつLGTMが0の場合にLGTMが777件に見えるアドオン
