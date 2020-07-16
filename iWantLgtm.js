@@ -1,3 +1,5 @@
 var like = document.getElementsByClassName('it-Actions_likeCount');
 
-like[0].textContent = '777';
+if (like[0].textContent == 0){
+    like[0].textContent = '777';
+}
