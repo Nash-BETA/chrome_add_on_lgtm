@@ -1,5 +1,10 @@
-var like = document.getElementsByClassName('it-Actions_likeCount');
+//自分の投稿でないもののみ処理を行う(view数のdivが存在するか確認している)
+if(document.getElementsByClassName('it-Header_pv').length){
 
-if (like[0].textContent == 0){
-    like[0].textContent = '777';
+    var like = document.getElementsByClassName('it-Actions_likeCount');
+
+    //LGTMが0だった場合はLGTMを777に変える
+    if (like[0].textContent == 0){
+        like[0].textContent = '777';
+    }
 }
