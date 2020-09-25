@@ -5,6 +5,6 @@ if(document.getElementsByClassName('it-Header_pv').length){
 
     //LGTMが0だった場合はLGTMを777に変える
     if (like[0].textContent == 0){
-        like[0].textContent = '7777';
+        like[0].textContent = '777';
     }
 }
